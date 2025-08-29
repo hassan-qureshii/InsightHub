@@ -1,4 +1,4 @@
-import laptop from '../Assets/laptop.png';
+import laptop from '../assets/laptop.png';
 
 const Analytics = () => {
   return (
