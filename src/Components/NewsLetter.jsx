@@ -1,15 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// Add Google Fonts in index.html <head>:
-// <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
 const NewsLetter = () => {
   return (
     <div className="w-full bg-gradient-to-r from-gray-900 via-black to-gray-800 text-white py-20 px-4 font-[Montserrat]">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-12 items-center">
         
-        {/* Left Section */}
         <motion.div
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
@@ -23,14 +19,13 @@ const NewsLetter = () => {
           </p>
         </motion.div>
 
-        {/* Right Section */}
         <motion.div
           className="flex flex-col justify-center"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          {/* Input + Button */}
+
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <input
               type="email"
@@ -46,7 +41,6 @@ const NewsLetter = () => {
             </motion.button>
           </div>
 
-          {/* Privacy Note */}
           <div className="mt-4 text-sm text-gray-400">
             <p>
               We care about the protection of your data. Read our{" "}

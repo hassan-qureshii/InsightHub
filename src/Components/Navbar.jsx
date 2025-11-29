@@ -12,8 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 font-[Montserrat]">
-      {/* Logo */}
-      <motion.h1
+     <motion.h1
         className="w-full text-3xl font-bold text-[#00df9a] cursor-pointer"
         initial={{ scale: 0.9 }}
         animate={{ scale: 1 }}
@@ -22,7 +21,6 @@ const Navbar = () => {
         InsightHub
       </motion.h1>
 
-      {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6">
         <li className="flex items-center gap-2 p-2 hover:text-[#00df9a] transition-colors">
           <FaHome /> Home
@@ -41,12 +39,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Mobile Icon */}
       <div onClick={handleNav} className="block md:hidden cursor-pointer z-50">
         {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
       </div>
 
-      {/* Mobile Menu with Framer Motion */}
       <AnimatePresence>
         {nav && (
           <motion.div
