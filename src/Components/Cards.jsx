@@ -6,7 +6,6 @@ const Cards = () => {
     <div className="bg-gradient-to-r from-gray-100 via-white to-gray-100 py-[10rem] px-4 w-full">
       <div className="w-full max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         
-        {/* Single User Card */}
         <motion.div
           className="w-full bg-gray-50 shadow-xl flex flex-col p-6 my-4 rounded-lg hover:scale-105 duration-300"
           initial={{ opacity: 0, y: 40 }}
@@ -33,7 +32,6 @@ const Cards = () => {
           </motion.button>
         </motion.div>
 
-        {/* Partnership Card */}
         <motion.div
           className="w-full bg-gray-100 shadow-xl flex flex-col p-6 md:m-0 my-8 rounded-lg hover:scale-105 duration-300"
           initial={{ opacity: 0, y: 40 }}
@@ -60,7 +58,6 @@ const Cards = () => {
           </motion.button>
         </motion.div>
 
-        {/* Group Account Card */}
         <motion.div
           className="w-full bg-gray-50 shadow-xl flex flex-col p-6 my-4 rounded-lg hover:scale-105 duration-300"
           initial={{ opacity: 0, y: 40 }}

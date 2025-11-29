@@ -11,7 +11,6 @@ const Footer = () => {
     <div className="w-full bg-black text-gray-300 py-16 px-4">
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-5 gap-8">
         
-        {/* Brand + Social */}
         <div>
           <h1 className="text-3xl font-bold text-[#00df9a]">InsightHub</h1>
           <p className="py-4 text-gray-400">
@@ -26,7 +25,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Solutions */}
         <div>
           <h6 className="font-medium text-gray-400 mb-4 text-xl">Solutions</h6>
           <ul>
@@ -37,7 +35,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Support */}
         <div>
           <h6 className="font-medium text-gray-400 mb-4 text-xl">Support</h6>
           <ul>
@@ -48,7 +45,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company */}
         <div>
           <h6 className="font-medium text-gray-400 mb-4 text-xl">Company</h6>
           <ul>
@@ -60,7 +56,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Legal */}
         <div>
           <h6 className="font-medium text-gray-400 mb-4 text-xl">Legal</h6>
           <ul>
